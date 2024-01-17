@@ -1,0 +1,23 @@
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+  border: 1px solid var(--c-white);
+  justify-content: center;
+  color: var(--c-white);
+  align-items: center;
+  border-radius: 50%;
+  font-size: 18px;
+  min-width: 40px;
+  display: flex;
+  height: 40px;
+  width: 40px;
+
+  &:hover {
+    border-color: var(--c-violet-dark);
+    color: var(--c-violet-dark);
+  }
+}

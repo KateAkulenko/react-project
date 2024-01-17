@@ -7,7 +7,10 @@ import React from 'react';
 import router from './routes';
 
 // * Styles(global)
+import './normalize.css';
 import './index.css';
+import './base.module.css';
+
 
 // * Render
 ReactDOM.createRoot(document.getElementById('root')!).render(

@@ -1,9 +1,40 @@
 :root {
-
+  --c-white: #fff;
+  --c-black: #000;
+  --c-violet:  blueviolet;
+  --c-violet-dark: #3d025f;
+  --c-delete: #fc0000;
+  
+  /* fonts */
+  
+  --f-source-sans-3: 'Source Sans 3', sans-serif;
+  --f-montserrat: 'Montserrat', sans-serif;
+  --f-open-sans: 'Open Sans', sans-serif;
 }
 
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+    list-style-type: none;
 }

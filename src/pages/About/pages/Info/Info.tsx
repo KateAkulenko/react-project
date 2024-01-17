@@ -1,9 +1,9 @@
-function Info() {
+function Registration() {
   return (
     <>
-      <h1>Info</h1>
+      <h1>Registration</h1>
     </>
   );
 }
 
-export default Info;
+export default Registration;
