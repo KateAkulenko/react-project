@@ -5,14 +5,16 @@ import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import { Suspense, lazy } from 'react';
 import Loading from './components/Loading/Loading';
+import { ReactNode } from 'react';
 
 const Home = lazy(() => import('./pages/Home/Home'));
 const Detail = lazy(() => import('./pages/About/pages/Detail/Detail'));
 const Info = lazy(() => import('./pages/About/pages/Info/Info'));
 const About = lazy(() => import('./pages/About/About'));
 
+
 // * Element
-function Element({ component }) {
+function Element({ component }: { component: ReactNode }) {
   return <Suspense fallback={<Loading />}>{component}</Suspense>;
 }
 
