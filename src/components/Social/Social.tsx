@@ -17,6 +17,15 @@ function Social() {
               target="_blank"
               rel="noreferrer"
             >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                viewBox="0 0 32 32"
+              >
+                <path d={item.path} />
+              </svg>
             </a>
           </li>
         );

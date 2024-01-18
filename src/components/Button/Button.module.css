@@ -10,7 +10,7 @@
   cursor: pointer;  
   display: flex;
   height: 40px;
-  border: none;
+  border: solid 1px var(--c-violet-dark);
 
 
 

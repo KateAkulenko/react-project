@@ -1,7 +1,7 @@
 .list {
   align-items: center;
   display: flex;
-  gap: 40px;
+  gap: 25px;
 }
 
 .link {

@@ -1,10 +1,13 @@
 import base from './../../base.module.css';
-function Calculator() {
+
+function Login() {
   return (
     <div className={base.wrapper}>
-      <h1>Online-Calculator</h1>
+    <form>
+      <h1>Login</h1>
+    </form>
     </div>
   );
 }
 
-export default Calculator;
+export default Login;

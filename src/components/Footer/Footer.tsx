@@ -1,7 +1,7 @@
 import style from './Footer.module.css';
 import base from './../../base.module.css';
 import Logo from './../Logo/Logo';
-import Social from './../../Social/Social';
+import Social from '../Social/Social';
 
 function Footer() {
   return (
