@@ -8,9 +8,9 @@ import Loading from './components/Loading/Loading';
 import { ReactNode } from 'react';
 
 const Home = lazy(() => import('./pages/Home/Home'));
-const Detail = lazy(() => import('./pages/About/pages/Detail/Detail'));
-const Info = lazy(() => import('./pages/About/pages/Info/Info'));
 const About = lazy(() => import('./pages/About/About'));
+const Calculator = lazy(() => import('./pages/Calculator/Calculator'));
+const Contacts = lazy(() => import('./pages/Contacts/Contacts'));
 
 
 // * Element
@@ -32,14 +32,18 @@ export default createBrowserRouter([
         path: '/about',
         element: <Element component={<About />} />,
         children: [
-          {
-            path: 'detail',
-            element: <Element component={<Detail />} />,
-          },
-          {
-            path: 'info',
-            element: <Element component={<Info />} />,
-          },
+        ],
+      },
+      {
+        path: '/online-calculator',
+        element: <Element component={<Calculator />} />,
+        children: [
+        ],
+      },
+      {
+        path: '/contacts',
+        element: <Element component={<Contacts />} />,
+        children: [
         ],
       },
     ],

@@ -19,12 +19,12 @@ function Header() {
         <Link to='/about' className={style.link}>
         <div className={style.circle}></div>
           About</Link>
-        <Link to='/about/detail' className={style.link}>
+        <Link to='/online-calculator' className={style.link}>
         <div className={style.circle}></div>
-          About detail</Link>
-        <Link to='/about/info' className={style.link}>
+          Online-calculator</Link>
+        <Link to='/contacts' className={style.link}>
         <div className={style.circle}></div>
-          About info</Link>
+          Contacts</Link>
       </nav>
       <Social />
       </div>
