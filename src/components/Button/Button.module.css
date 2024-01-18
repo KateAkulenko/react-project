@@ -1,0 +1,26 @@
+.button {
+  background-color: var(--c-violet-dark);
+  font-family: var(--f-open-sans);
+  justify-content: center;
+  padding-inline: 25px;
+  color: var(--c-white);
+  align-items: center;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;  
+  display: flex;
+  height: 40px;
+  border: none;
+
+
+
+  &:hover {
+    background-color: var(--c-white);
+    color: var(--c-black);
+  }
+}
+
+.alert {
+  background-color: var(--c-violet-light);
+}
+

@@ -1,0 +1,31 @@
+.footer {
+  background: var(--c-violet);
+}
+
+.wrapper {
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.info {
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+  width: 50%;
+  gap: 40px;
+}
+
+.p {
+  color: var(--c-white);
+  font-family: var(--f-open-sans);
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
