@@ -8,7 +8,6 @@ import { useState } from 'react';
 import Button from './../Button/Button';
 import Modal from './../Modal/Modal';
 import Registration from './../Registration/Registration';
-import Login from './../Login/Login';
 
 function Header() {
   const [isAuth, setIsAuth] = useState(Boolean(localStorage.getItem('user')));
@@ -65,13 +64,9 @@ function Header() {
             <Button text={'Logout'} onClick={logout} alertMode={true} />
           ) : (
             <Button
-              text={'Sign in'}
+              text={'Login'}
               onClick={() => {
                 signIn();
-                openModal();
-                <Modal isOpen={isModalOpen} onClose={closeModal}>
-                  <Login />
-                </Modal>;
               }}
             />
           )}

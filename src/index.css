@@ -1,9 +1,9 @@
 :root {
   --c-white: #fff;
   --c-black: #000;
-  --c-violet:  blueviolet;
+  --c-violet:  #8a2be2;
   --c-violet-dark: #3d025f;
-  --c-violet-light:  rgb(192, 127, 253);
+  --c-violet-light:  #c07ffd;
   --c-delete: #fc0000;
   
   /* fonts */
@@ -11,6 +11,7 @@
   --f-source-sans-3: 'Source Sans 3', sans-serif;
   --f-montserrat: 'Montserrat', sans-serif;
   --f-open-sans: 'Open Sans', sans-serif;
+  --f-lemon: 'Lemon', serif;
 }
 
 * {

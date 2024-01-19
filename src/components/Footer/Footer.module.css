@@ -1,11 +1,11 @@
 .footer {
-  background: var(--c-violet);
+  background: radial-gradient(circle, rgba(192,127,253,1) 0%, rgba(138,43,226,1) 100%);
 }
 
 .wrapper {
     justify-content: space-between;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-top: 25px;
     display: flex;
     flex-direction: row;
     width: 100%;

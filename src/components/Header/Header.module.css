@@ -22,14 +22,14 @@
 }
 
 .header {
-  background: var(--c-violet);
+  background: radial-gradient(circle, rgba(192,127,253,1) 0%, rgba(138,43,226,1) 100%);
 }
 
 .wrapper {
   justify-content: space-between;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 30px;
   display: flex;
 }
 

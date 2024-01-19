@@ -30,4 +30,5 @@
   background: var(--c-white);
   border: solid 3px var(--c-delete);
   width: 35px;
+  z-index: 20;
 }

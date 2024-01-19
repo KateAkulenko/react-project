@@ -1,13 +1,13 @@
 import base from './../../base.module.css';
 
-function Login() {
+function Registration() {
   return (
     <div className={base.wrapper}>
     <form>
-      <h1>Login</h1>
+      <h1>Registration</h1>
     </form>
     </div>
   );
 }
 
-export default Login;
+export default Registration;
