@@ -11,8 +11,7 @@
   display: flex;
   height: 40px;
   border: solid 1px var(--c-violet-dark);
-
-
+  width: fit-content;
 
   &:hover {
     background-color: var(--c-white);

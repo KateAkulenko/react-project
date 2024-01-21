@@ -2,6 +2,8 @@ import style from './Footer.module.css';
 import base from './../../base.module.css';
 import Logo from './../Logo/Logo';
 import Social from '../Social/Social';
+import ContactsFooter from './../ContactsFooter/ContactsFooter';
+import NavigationFooter from './../NavigationFooter/NavigationFooter';
 
 function Footer() {
   return (
@@ -11,6 +13,12 @@ function Footer() {
         <div className={style.info}>
           <Logo />
           <p className={style.p}>Copyrights © 2024 Kateryna Akulenko</p>
+        </div>
+        <div>
+          <ContactsFooter />
+        </div>
+        <div>
+          <NavigationFooter />
         </div>
         <div className={style.social}>
           <Social />

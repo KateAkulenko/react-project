@@ -1,0 +1,23 @@
+.title {
+  color: var(--c-violet-dark);
+  text-transform: uppercase;
+  margin-bottom: 90px;
+  margin-top: 70px;
+  font-family: var(--f-montserrat);
+  text-shadow: 2px 2px var(--c-violet-light);
+  text-align: center;
+  position: relative;
+  font-size: 44px;
+
+  &::before {
+    content: '';
+    background-color: var(--c-violet-light);
+    transform: translateX(-50%);
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    top: -30px;
+    left: 50%;
+  }
+}
