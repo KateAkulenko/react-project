@@ -1,0 +1,115 @@
+.title {
+  color: var(--c-violet-dark);
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: var(--f-montserrat);
+  text-shadow: 2px 2px var(--c-violet-light);
+  text-align: center;
+  position: relative;
+  font-size: 24px;
+
+  &::before {
+    content: '';
+    background-color: var(--c-violet-light);
+    transform: translateX(-50%);
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    top: -20px;
+    left: 50%;
+  }
+}
+
+.card {
+  display: flex;
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%);
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+  position: relative;
+  border: 1px solid var(--c-violet);
+  border-radius: 20px;
+  padding: 10px;
+  gap: 20px;
+  background: var(--c-text-back);
+  &::before {
+    content: '';
+    border: 1px solid var(--c-violet-light);
+    display: inline-block;
+    position: absolute;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: -10px;
+    left: -10px;
+  }
+
+}
+
+.imgwrapper {
+  object-fit: cover;
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 20px;
+}
+
+.img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.infowrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+}
+
+.name {
+  font-family: var(--f-open-sans);
+  color: var(--c-violet);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.info {
+  font-family: var(--f-montserrat);
+  color: var(--c-violet-dark);
+  font-size: 18px;
+}
+
+.specialization {
+  font-family: var(--f-open-sans);
+  color: var(--c-violet-dark);
+  font-size: 16px;
+  font-style: italic;
+}
+
+.year {
+  font-family: var(--f-open-sans);
+  color: var(--c-violet);
+  font-size: 18px;
+  font-weight: 700;
+  background-color: var(--c-white);
+  width: fit-content;
+}
+
+.txt {
+  font-family: var(--f-montserrat);
+  color: var(--c-violet-dark);
+  font-size: 16px;
+  font-style: italic;
+}
+
+.li {
+  list-style: disc;
+  margin-left: 15px;
+}

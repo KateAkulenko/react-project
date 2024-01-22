@@ -5,7 +5,6 @@
   margin-bottom: 90px;
   background: var( --c-text-back);
   position: relative;
-  
 }
 
 .info {
@@ -38,6 +37,7 @@
   background-color: var(--c-white);
   width: fit-content;
   padding: 5px;
+  z-index: 1;
 }
 
 .title {
@@ -61,6 +61,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
+  z-index: 1;
   &:hover {
     color: var(--c-violet);
   }
