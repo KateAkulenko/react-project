@@ -1,0 +1,19 @@
+
+
+.header {
+  background: var(--c-white);
+}
+
+.wrapper {
+  justify-content: flex-end;
+  gap: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  align-items: center;
+  display: flex;
+}
+
+.buttons {
+display: flex;
+gap: 10px;
+}

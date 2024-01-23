@@ -45,3 +45,8 @@
   font-family: var(--f-montserrat);
   font-size: 18px;
 }
+
+.stetoscope {
+  color: var(--c-violet);
+  margin-right: 10px;;
+}

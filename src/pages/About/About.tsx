@@ -3,6 +3,7 @@ import Banner from './../../components/Banner/Banner';
 import Title from './../../components/Title/Title';
 import AboutInfo from './../../components/AboutInfo/AboutInfo';
 import AboutDoctors from './../../components/AboutDoctors/AboutDoctors';
+import Posts from '../../components/Posts/Posts';
 
 function About() {
   return (
@@ -12,6 +13,7 @@ function About() {
         <Title title="About us" />
         <AboutInfo />
         <AboutDoctors />
+        <Posts />
     </div>
     </div>
   );

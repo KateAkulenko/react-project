@@ -1,0 +1,33 @@
+.list {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width: 75%;
+}
+
+.link {
+  color: var(--c-white);
+  align-items: center;
+  display: flex;
+  padding: 5px;
+  font-family: var(--f-montserrat);
+  font-size: 18px;
+  text-transform: uppercase;
+  &:hover {
+    color: var(--c-violet-dark);
+    & > .circle {
+      background-color: var(--c-white);
+      border-color: var(--c-white);
+    }
+  }
+}
+
+
+.circle {
+  border: 1px solid var(--c-white);
+  background-color: rgba(0, 0, 0, 0);
+  margin-right: 10px;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
