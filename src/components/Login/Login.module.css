@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.errorcontainer {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+}
+
+.field {
+  margin-left: 10px;
+}
+
+.label {
+  font-family: var(--f-montserrat);
+  font-size: 14;
+}
+
+.error {
+  font-family: var(--f-montserrat);
+  font-size: 14;
+  color: red;
+  margin-left: 10px;
+}
+
+.button {
+  font-family: var(--f-montserrat);
+  font-size: 14;
+  background-color: var(--c-violet-light);
+}
