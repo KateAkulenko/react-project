@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%);
+  align-items: center;
+  margin-bottom: 50px;
+  position: relative;
+  border: 1px solid var(--c-violet);
+  border-radius: 20px;
+  padding: 30px;
+  background: var(--c-text-back);
+  gap: 30px;
+  height: 300px;
+  position: relative;
+  z-index: 3;
+  &::after {
+    content: '';
+    border: 1px solid var(--c-violet-light);
+    display: inline-block;
+    position: absolute;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: -10px;
+    left: -10px;
+  }
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.label {
+  font-family: var(--f-montserrat);
+  color: var(--c-violet);
+  line-height: 2;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.8s ease;
+
+  &:focus {
+    border-color: var(--c-violet); /* Колір обрамлення при фокусі */
+  }
+}
+
+.result {
+  margin: 20px;
+  font-size: 26px;
+  text-transform: uppercase;
+  color:var(--c-violet);
+  font-weight: 600;
+}
