@@ -1,33 +1,32 @@
 .bunner {
   background: var(--c-violet-light);
-  /* position: relative; */
   overflow: hidden;
   height: 400px;
 }
 
 .customSwiper {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  z-index: 1;
-  display: flex;
-  transition-property: transform;
   transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+  transition-property: transform;
   box-sizing: content-box;
+  position: relative;
+  height: 400px;
+  display: flex;
+  width: 100%;
+  z-index: 1;
 }
 
 .slideCaption {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  text-shadow: 3px 3px var(--c-violet-dark);
   transform: translate(-50%, -50%);
   color: var(--c-violet-light); 
-  font-size: 50px; 
   font-family: var(--f-montserrat);
-  font-weight: 600;
-  text-align: center; 
-  text-shadow: 3px 3px var(--c-violet-dark);
   text-transform: uppercase;
+  position: absolute;
+  text-align: center; 
+  font-weight: 600;
+  font-size: 50px; 
+  top: 50%;
+  left: 50%;
 }
 
 

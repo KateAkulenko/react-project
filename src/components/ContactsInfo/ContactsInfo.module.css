@@ -1,0 +1,45 @@
+.wrapper {
+  box-shadow: 1px 1px 2px var(--c-violet-dark), 0 0 25px var(--c-violet), 0 0 5px var(--c-violet-light);
+  border: 1px solid var(--c-violet-light);
+  background: var(--c-white);
+  transform: translate(-50%);
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  position: absolute;
+  display: flex;
+  padding: 30px;
+  width: 60%;
+  left: 50%;
+  z-index: 1;
+  top:360px;
+}
+
+.container {
+  flex-direction: column;
+  display: flex;
+  gap: 30px;
+}
+
+.contact {
+  font-family: var(--f-open-sans);
+  color: var(--c-violet-dark);
+  text-decoration: none;
+  font-size: 20px;
+  &:hover {
+    color: var(--c-violet);    
+  }
+}
+
+.hours {
+  font-family: var(--f-open-sans);
+  color: var(--c-violet-dark);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.icon {
+  color: var(--c-violet);
+  font-size: 20px;
+}

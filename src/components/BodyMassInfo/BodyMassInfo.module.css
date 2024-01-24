@@ -3,13 +3,13 @@
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-bottom: 90px;
-  background: var(--c-white);
-  position: relative;
   border: 1px solid var(--c-violet-light);
+  justify-content: flex-start;
+  background: var(--c-white);
+  flex-direction: column;
+  margin-bottom: 90px;
+  position: relative;
+  display: flex;
   padding: 10px;
   &::before {
     content: '';
@@ -17,25 +17,25 @@
     display: inline-block;
     position: absolute;
     height: 100%;
-    width: 80%;
-    z-index: -1;
     bottom: -50px;
     right: -50px;
+    z-index: -1;
+    width: 80%;
   }
 }
 
 .title {
-  color: var(--c-violet);
+  text-shadow: 1px 1px var(--c-violet-dark);
+  font-family: var(--f-montserrat);
   text-transform: uppercase;
+  color: var(--c-violet);
   margin-bottom: 5px;
   margin-top: 10px;
-  font-family: var(--f-montserrat);
-  text-shadow: 1px 1px var(--c-violet-dark);
 }
 
 .pharagraf {
-  color: var(--c-violet-dark);
   font-family: var(--f-montserrat);
+  color: var(--c-violet-dark);
   font-size: 18px;
 }
 
@@ -45,14 +45,14 @@
 }
 
 .titlemain {
+  text-shadow: 2px 2px var(--c-violet-light);
+  font-family: var(--f-montserrat);
     color: var(--c-violet-dark);
     text-transform: uppercase;
     margin-bottom: 30px;
-    margin-top: 90px;
-    font-family: var(--f-montserrat);
-    text-shadow: 2px 2px var(--c-violet-light);
-    text-align: center;
     position: relative;
+    text-align: center;
+    margin-top: 90px;
     font-size: 24px;
   
     &::before {
@@ -69,8 +69,8 @@
 }
 
 .measurement {
-  text-align: center;
   color: var(--c-violet);
-  font-weight: 2;
+  text-align: center;
   font-weight: 600;
+  font-weight: 2;
 }

@@ -1,7 +1,7 @@
 .contact {
+  font-family: var(--f-open-sans);
   text-decoration: none;
   color: var(--c-white);
-  font-family: var(--f-open-sans);
   font-size: 12px;
   &:hover {
     color: var(--c-violet-dark);    
@@ -9,14 +9,14 @@
 }
 
 .title {
-  color: var(--c-white);
   font-family: var(--f-open-sans);
-  font-size: 14px;
+  color: var(--c-white);
   margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .wrapper {
-  display: flex;
   flex-direction: column;
+  display: flex;
   gap: 5px;
 }

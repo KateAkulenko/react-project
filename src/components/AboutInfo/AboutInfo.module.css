@@ -1,37 +1,37 @@
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-bottom: 90px;
-  background: var(--c-white);
-  position: relative;
   border: 1px solid var(--c-violet-light);
+  justify-content: flex-start;
+  background: var(--c-white);
+  flex-direction: column;
+  margin-bottom: 90px;
+  position: relative;
+  display: flex;
   padding: 10px;
   &::before {
     content: "";
     background: var(--c-violet-light);
     display: inline-block;
     position: absolute;
+    bottom: -50px;
+    right: -50px;
     height: 100%;
     width: 80%;
     z-index: -1;
-    bottom: -50px;
-    right: -50px;
 }
 }
 
 .title {
-  color: var(--c-violet);
+  text-shadow: 1px 1px var(--c-violet-dark);
+  font-family: var(--f-montserrat);
   text-transform: uppercase;
+  color: var(--c-violet);
   margin-bottom: 5px;
   margin-top: 10px;
-  font-family: var(--f-montserrat);
-  text-shadow: 1px 1px var(--c-violet-dark);
 }
 
 .pharagraf {
-  color: var(--c-violet-dark);
   font-family: var(--f-montserrat);
+  color: var(--c-violet-dark);
   font-size: 18px;
 }
 

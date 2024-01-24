@@ -1,36 +1,36 @@
 
 .overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background: rgba(0, 0, 0, 0.6); 
-  display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  display: flex;
+  height: 100%;
+  width: 100%;
   z-index: 20;
+  left: 0;
+  top: 0;
 }
 
 
 .content {
-  background: var(--c-white); 
-  padding: 20px;
-  border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+  background: var(--c-white); 
+  border-radius: 10px;
+  padding: 20px;
   z-index: 20;
 }
 
 
 .close {
+  border: solid 3px var(--c-delete);
+  background: var(--c-white);
+  color: var(--c-delete); 
   position: absolute;
-  top: 50px;
-  right: 50px;
   cursor: pointer;
   font-size: 30px;
-  color: var(--c-delete); 
-  background: var(--c-white);
-  border: solid 3px var(--c-delete);
+  right: 50px;
   width: 35px;
   z-index: 20;
+  top: 50px;
 }

@@ -6,11 +6,11 @@
 
 .wrapper {
   justify-content: flex-end;
-  gap: 10px;
+  align-items: center;
   padding-bottom: 10px;
   padding-top: 10px;
-  align-items: center;
   display: flex;
+  gap: 10px;
 }
 
 .buttons {

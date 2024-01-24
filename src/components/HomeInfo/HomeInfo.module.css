@@ -1,66 +1,66 @@
 .wrapper {
-  display: flex;
-  flex-direction: row;
+  background: var( --c-text-back);
   justify-content: flex-start;
   margin-bottom: 90px;
-  background: var( --c-text-back);
+  flex-direction: row;
   position: relative;
+  display: flex;
 }
 
 .info {
   background: var(--c-text-back);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  max-width: 70%;
   justify-content: space-between;
+  flex-direction: column;
+  max-width: 70%;
+  display: flex;
   margin: 20px;
+  gap: 10px;
   &::before {
     content: "";
     background: var(--c-violet-light);
     display: inline-block;
     position: absolute;
+    bottom: -50px;
     height: 100%;
+    right: -50px;
     width: 80%;
     z-index: -1;
-    bottom: -50px;
-    right: -50px;
   }
 }
 
 .subtitle {
   font-family: var(--f-montserrat);
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--c-violet);
-  text-transform: uppercase;
   background-color: var(--c-white);
+  text-transform: uppercase;
+  color: var(--c-violet);
   width: fit-content;
+  font-weight: 700;
+  font-size: 12px;
   padding: 5px;
   z-index: 1;
 }
 
 .title {
   font-family: var(--f-montserrat);
-  font-size: 32px;
-  font-weight: 700;
   color: var(--c-violet-dark);
   text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
 }
 
 .text {
   font-family: var(--f-open-sans);
+  color: var(--c-black);
   font-size: 22px;
   font-weight: 400;
-  color: var(--c-black);
   line-height: 1.5;
   z-index: 2;
 }
 
 .learnMoreContainer {
-  display: flex;
-  align-items: flex-end;
   justify-content: flex-start;
+  align-items: flex-end;
+  display: flex;
   z-index: 1;
   &:hover {
     color: var(--c-violet);
@@ -68,11 +68,11 @@
 } 
 
 .more {
-  font-family: var(--f-open-sans);
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--c-black);
   border-bottom: 1px solid var(--c-violet);
+  font-family: var(--f-open-sans);
+  color: var(--c-black);
+  font-weight: 500;
+  font-size: 16px;
   &:hover {
     color: var(--c-violet);
   }
@@ -84,18 +84,18 @@
 
 .imgWrapper {
   background: var(--c-text-back);
-  display: flex;
-  flex-direction: column;
-  max-width: 30%;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   object-fit: cover;
+  max-width: 30%;
+  display: flex;
 }
 
 .img {
   position: absolute;
   height: 350px;
-  width: auto;
   bottom: -50px;
+  width: auto;
   right: 0px;
 }

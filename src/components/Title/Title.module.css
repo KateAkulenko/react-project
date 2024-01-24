@@ -1,12 +1,12 @@
 .title {
+  text-shadow: 2px 2px var(--c-violet-light);
+  font-family: var(--f-montserrat);
   color: var(--c-violet-dark);
   text-transform: uppercase;
   margin-bottom: 90px;
-  margin-top: 70px;
-  font-family: var(--f-montserrat);
-  text-shadow: 2px 2px var(--c-violet-light);
   text-align: center;
   position: relative;
+  margin-top: 70px;
   font-size: 44px;
 
   &::before {

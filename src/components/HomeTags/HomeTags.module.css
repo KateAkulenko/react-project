@@ -1,36 +1,36 @@
 .wrapper {
+  background-image: url('vegetable-bacground2.png');
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  background-size: cover;
   margin-bottom: 90px;
+  align-items: center;
   margin-top: 150px;
   display: flex;
-  flex-direction: column;
   gap: 60px;
-  align-items: center;
-  justify-content: space-between;
-  background-image: url('vegetable-bacground2.png');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
-  width: 80%;
   justify-content: flex-start;
+  flex-direction: row;
+  display: flex;
+  width: 80%;
 }
 
 .reverse {
-  display: flex;
   flex-direction: row-reverse;
-  width: 80%;
   justify-content: flex-end;
+  display: flex;
+  width: 80%;
 }
 
 .decoration {
-  width: 200px;
-  height: 200px;
+  background-color: var(--c-text-back);
   border: 1px solid var(--c-violet-light);
   position: relative;
-  background-color: var(--c-text-back);
+  height: 200px;
+  width: 200px;
   width: 30%;
   &::before {
     content: '';
@@ -46,11 +46,11 @@
 }
 
 .decorationReverse {
-  width: 200px;
-  height: 200px;
+  background-color: var(--c-text-back);
   border: 1px solid var(--c-violet-light);
   position: relative;
-  background-color: var(--c-text-back);
+  height: 200px;
+  width: 200px;
   width: 30%;
   &::before {
     content: '';
@@ -60,45 +60,45 @@
     height: 100%;
     width: 100%;
     z-index: -1;
-    top: -30px;
     right: -40%;
+    top: -30px;
   }
 }
 
 .tagsContainer {
-  display: flex;
   align-items: center;
-  width: 70%;
   position: relative;
+  display: flex;
+  width: 70%;
 }
 
 .tags {
+  text-shadow: 2px 2px var(--c-violet-light);
+  font-family: var(--f-montserrat);
   color: var(--c-violet-dark);
   text-transform: uppercase;
   margin-bottom: 90px;
-  margin-top: 70px;
-  font-family: var(--f-montserrat);
-  text-shadow: 2px 2px var(--c-violet-light);
-  text-align: center;
-  font-size: 44px;
   position: absolute;
-  left: -120px;
   font-style: italic;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 44px;
+  left: -120px;
 }
 
 .tagsReverse {
+  text-shadow: 2px 2px var(--c-violet-light);
+  font-family: var(--f-montserrat);
   color: var(--c-violet-dark);
   text-transform: uppercase;
   margin-bottom: 90px;
-  margin-top: 70px;
-  font-family: var(--f-montserrat);
-  text-shadow: 2px 2px var(--c-violet-light);
-  text-align: center;
-  font-size: 44px;
   position: absolute;
+  font-style: italic;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 44px;
   right: -120px;
   left: 0px;
-  font-style: italic;
 }
 
 @keyframes waveAnimation {

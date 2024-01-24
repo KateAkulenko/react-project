@@ -1,12 +1,12 @@
 .title {
+  text-shadow: 2px 2px var(--c-violet-light);
+  font-family: var(--f-montserrat);
   color: var(--c-violet-dark);
   text-transform: uppercase;
   margin-bottom: 30px;
-  margin-top: 30px;
-  font-family: var(--f-montserrat);
-  text-shadow: 2px 2px var(--c-violet-light);
-  text-align: center;
   position: relative;
+  text-align: center;
+  margin-top: 30px;
   font-size: 24px;
 
   &::before {
@@ -23,19 +23,19 @@
 }
 
 .card {
-  display: flex;
-  width: 80%;
-  left: 50%;
+  border: 1px solid var(--c-violet);
+  background: var(--c-text-back);
+  justify-content: flex-start;
   transform: translate(-50%);
   flex-direction: row;
-  justify-content: flex-start;
   margin-bottom: 50px;
-  position: relative;
-  border: 1px solid var(--c-violet);
   border-radius: 20px;
+  position: relative;
   padding: 10px;
+  display: flex;
+  width: 80%;
   gap: 20px;
-  background: var(--c-text-back);
+  left: 50%;
   &::before {
     content: '';
     border: 1px solid var(--c-violet-light);
@@ -52,13 +52,13 @@
 }
 
 .imgwrapper {
+  justify-content: center;
+  border-radius: 20px;
+  align-items: center;
+  position: relative;
   object-fit: cover;
   display: flex;
   width: 30%;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  border-radius: 20px;
 }
 
 .img {
@@ -76,8 +76,8 @@
 .name {
   font-family: var(--f-open-sans);
   color: var(--c-violet);
-  font-size: 24px;
   font-weight: 700;
+  font-size: 24px;
 }
 
 .info {
@@ -89,27 +89,27 @@
 .specialization {
   font-family: var(--f-open-sans);
   color: var(--c-violet-dark);
-  font-size: 16px;
   font-style: italic;
+  font-size: 16px;
 }
 
 .year {
+  background-color: var(--c-white);
   font-family: var(--f-open-sans);
   color: var(--c-violet);
-  font-size: 18px;
-  font-weight: 700;
-  background-color: var(--c-white);
   width: fit-content;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .txt {
   font-family: var(--f-montserrat);
   color: var(--c-violet-dark);
-  font-size: 16px;
   font-style: italic;
+  font-size: 16px;
 }
 
 .li {
-  list-style: disc;
   margin-left: 15px;
+  list-style: disc;
 }

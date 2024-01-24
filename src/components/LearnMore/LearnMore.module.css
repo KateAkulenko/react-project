@@ -1,13 +1,14 @@
 .container {
-  display: flex;
+  box-shadow: 1px 1px 2px var(--c-violet-dark), 0 0 25px var(--c-violet), 0 0 5px var(--c-violet-light);
+  background: transparent;
   flex-direction: column;
   justify-content: center;
-  background: transparent;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  overflow: hidden; 
+  display: flex;
   padding: 20px;
   gap: 20px;
-  border-left: 1px solid transparent;
-  border-top: 1px solid transparent;
-  overflow: hidden; 
 }
 
 .inView {
@@ -37,14 +38,14 @@
 }
 
 .title {
+  text-shadow: 2px 2px var(--c-violet-light);
+  font-family: var(--f-montserrat);
   color: var(--c-violet-dark);
   text-transform: uppercase;
   margin-bottom: 10px;
-  margin-top: 30px;
-  font-family: var(--f-montserrat);
-  text-shadow: 2px 2px var(--c-violet-light);
   text-align: center;
   position: relative;
+  margin-top: 30px;
   font-size: 24px;
 
   &::before {
@@ -61,28 +62,28 @@
 }
 
 .question {
-  color: var(--c-violet-dark);
   font-family: var(--f-montserrat);
+  color: var(--c-violet-dark);
   text-align: center;
-  font-size: 18px;
   font-weight: bold;
+  font-size: 18px;
 }
 
 .learnMoreContainer {
-  display: flex;
-  align-items: flex-end;
   justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
   &:hover {
     color: var(--c-violet);
   }
 } 
 
 .more {
-  font-family: var(--f-open-sans);
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--c-black);
   border-bottom: 1px solid var(--c-violet);
+  font-family: var(--f-open-sans);
+  color: var(--c-black);
+  font-weight: 500;
+  font-size: 16px;
   &:hover {
     color: var(--c-violet);
   }

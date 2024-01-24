@@ -1,0 +1,14 @@
+.map {
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    display: flex;
+    height: 700px;
+    width: 100%;
+    z-index: 0;
+}
+
+iframe {
+  height: 100%;
+  width: 100%;
+}

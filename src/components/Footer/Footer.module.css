@@ -5,9 +5,9 @@
 .wrapper {
     justify-content: space-between;
     padding-bottom: 25px;
+    flex-direction: row;
     padding-top: 25px;
     display: flex;
-    flex-direction: row;
     width: 100%;
 }
 
@@ -19,12 +19,12 @@
 }
 
 .p {
-  color: var(--c-white);
   font-family: var(--f-open-sans);
+  color: var(--c-white);
 }
 
 .social {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
