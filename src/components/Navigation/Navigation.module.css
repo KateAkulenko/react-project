@@ -5,6 +5,15 @@
   width: 75%;
 }
 
+.listMobile {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+  margin-left: 20px;
+}
+
 .link {
   font-family: var(--f-montserrat);
   text-transform: uppercase;

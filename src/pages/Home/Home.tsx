@@ -6,6 +6,7 @@ import HomeTags from './../../components/HomeTags/HomeTags';
 import LearnMore from './../../components/LearnMore/LearnMore';
 
 function Home() {
+  document.title = "Be Well clinic of dietology"
   return (
     <div>
       <Banner />

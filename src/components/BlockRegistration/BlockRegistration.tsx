@@ -1,13 +1,15 @@
-import style from './Header2.module.css';
+import style from './BlockRegistration.module.css';
 import base from './../../base.module.css';
+import Loading from '../Loading/Loading';
 
 import cn from 'classnames';
 import { useState } from 'react';
-import Button from './../Button/Button';
-import Modal from './../Modal/Modal';
-import Registration from './../Registration/Registration';
-import Login from './../Login/Login'; 
+import { Suspense, lazy } from 'react';
+import Button from '../Button/Button';
+import Registration from '../Registration/Registration';
+import Login from '../Login/Login'; 
 
+const Modal = lazy(() => import('../Modal/Modal'));
 
 function Header2() {
   const [isAuth, setIsAuth] = useState(Boolean(localStorage.getItem('user')));
@@ -46,9 +48,12 @@ function Header2() {
 
         <div>
           <Button text={'Registration'} onClick={openModal} />
+          <Suspense fallback={<Loading />}>
           <Modal isOpen={isModalOpen} onClose={closeModal}>
             <Registration />
           </Modal>
+          </Suspense>
+          
         </div>
 
         <div>

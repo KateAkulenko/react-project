@@ -6,6 +6,7 @@ import AboutDoctors from './../../components/AboutDoctors/AboutDoctors';
 import Posts from '../../components/Posts/Posts';
 
 function About() {
+  document.title = "About Be Well"
   return (
     <div>
       <Banner />

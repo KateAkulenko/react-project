@@ -4,6 +4,7 @@ import ContactsInfo from './../../components/ContactsInfo/ContactsInfo';
 import Map from './../../components/Map/Map';
 
 function Contacts() {
+  document.title = "Contacts Be Well"
   return (
     <> 
     <div className={base.wrapper}>

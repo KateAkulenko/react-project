@@ -3,7 +3,7 @@ import { Outlet } from 'react-router';
 
 // * Components
 import Header from './components/Header/Header';
-import Header2 from './components/Header2/Header2';
+import Header2 from './components/BlockRegistration/BlockRegistration';
 import Footer from './components/Footer/Footer';
 
 function App() {

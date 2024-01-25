@@ -22,18 +22,25 @@
 
 .label {
   font-family: var(--f-montserrat);
-  font-size: 14;
+  font-size: 14px;
 }
 
 .error {
   font-family: var(--f-montserrat);
-  font-size: 14;
-  color: red;
+  font-size: 10px;
+  color: var(--c-delete);
   margin-left: 10px;
 }
 
 .button {
   font-family: var(--f-montserrat);
-  font-size: 14;
-  background-color: var(--c-violet-light);
+  font-size: 14px;
+  background-color: var(--c-violet);
+  max-width: 80px;
+  padding: 5px;
+  border-radius: 10px;
+  color: var(--c-white);
+  &:hover {
+    background-color: var(--c-violet-light);
+  }
 }

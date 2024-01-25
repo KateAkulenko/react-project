@@ -1,9 +1,14 @@
 import style from './Navigation.module.css';
 import { Link } from 'react-router-dom';
+import cn from 'classnames';
+type navigationPropsType = {
+  isMobile: boolean;
+};
 
-function Navigation() {
+function Navigation({isMobile}: navigationPropsType) {
+
   return (
-    <nav className={style.list}>
+    <nav className={cn([!isMobile ? style.list : style.listMobile])}>
       <Link to="/" className={style.link}>
         <div className={style.circle}></div>
         Home

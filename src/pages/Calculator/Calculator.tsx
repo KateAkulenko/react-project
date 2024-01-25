@@ -5,6 +5,7 @@ import BodyMassCalculator from './../../components/BodyMassCalculator/BodyMassCa
 import BodyMassInfo from './../../components/BodyMassInfo/BodyMassInfo';
 
 function Calculator() {
+  document.title = "Online-Calculator Be Well"
   return (
     <>
     <Banner />

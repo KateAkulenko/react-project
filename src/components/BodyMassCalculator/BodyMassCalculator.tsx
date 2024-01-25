@@ -55,7 +55,7 @@ const BodyMassCalculator: React.FC = () => {
         </label>
       </div>
 
-      <div className={style.inputs}>
+      <div className={style.buttons}>
         <Button text={'Result'} onClick={calculateBMI} />
         <Button text={'Reset'} onClick={handleReset} alertMode={true} />
       </div>

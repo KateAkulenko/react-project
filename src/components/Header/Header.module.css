@@ -10,9 +10,14 @@
   align-items: center;
   padding-top: 20px;
   display: flex;
+
+  @media screen and (max-width: 767px)  {
+    align-items: flex-start;
+    padding-top: 20px;
+  }
 }
 
-.buttons {
+/* .buttons {
 display: flex;
 gap: 10px;
-}
+} */
