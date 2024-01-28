@@ -19,7 +19,9 @@ const Posts: React.FC = () => {
     <div className={style.wrapper}>
       <h2 className={style.title}>Reviews</h2>
       <div id="disqus_thread"></div>
+      <div className={style.scriptwrapper}>
       <script></script>
+      </div>
     </div>
   );
 };

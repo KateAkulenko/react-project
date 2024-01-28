@@ -1,19 +1,21 @@
-
-
-.header {
+.background {
   background: var(--c-white);
 }
 
 .wrapper {
   justify-content: flex-end;
-  align-items: center;
   padding-bottom: 10px;
+  align-items: center;
   padding-top: 10px;
   display: flex;
   gap: 10px;
 }
 
 .buttons {
-display: flex;
-gap: 10px;
+  margin-right: 0px;
+  display: flex;
+  gap: 10px;
+  @media screen and (max-width: 1024px) {
+    margin-right: 10px;
+  }
 }

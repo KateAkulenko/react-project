@@ -8,15 +8,17 @@
   }
 }
 
-.title {
-  font-family: var(--f-open-sans);
-  color: var(--c-white);
-  margin-bottom: 10px;
-  font-size: 14px;
-}
-
 .wrapper {
   flex-direction: column;
   display: flex;
-  gap: 5px;
+  gap: 10px;
+
+  @media screen and (max-width: 426px)  {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }

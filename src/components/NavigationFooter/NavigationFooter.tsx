@@ -3,7 +3,6 @@ import style from './NavigationFooter.module.css';
 function NavigationFooter() {
   return (
     <div className={style.wrapper}>
-      <p className={style.title}>Menu</p>
       <p>
         <a href="/" target="_blank" className={style.contact}>
           Home

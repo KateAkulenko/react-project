@@ -14,10 +14,10 @@ function Footer() {
           <Logo />
           <p className={style.p}>Copyrights © 2024 Kateryna Akulenko</p>
         </div>
-        <div>
+        <div className={style.contacts}>
           <ContactsFooter />
         </div>
-        <div>
+        <div className={style.navigation}>
           <NavigationFooter />
         </div>
         <div className={style.social}>

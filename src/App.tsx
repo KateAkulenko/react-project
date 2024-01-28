@@ -3,14 +3,14 @@ import { Outlet } from 'react-router';
 
 // * Components
 import Header from './components/Header/Header';
-import Header2 from './components/BlockRegistration/BlockRegistration';
+import BlockRegistration from './components/BlockRegistration/BlockRegistration';
 import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <>
       <Header />
-      <Header2 />
+      <BlockRegistration />
       <Outlet />
       <Footer />
       <script id="dsq-count-scr" src="//reactproject.disqus.com/count.js" async></script>

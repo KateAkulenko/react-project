@@ -9,6 +9,8 @@
   flex-direction: column;
   margin-bottom: 90px;
   position: relative;
+  margin-right: 0px;
+  margin-left: 0px;
   display: flex;
   padding: 10px;
   &::before {
@@ -21,6 +23,15 @@
     right: -50px;
     z-index: -1;
     width: 80%;
+  }
+
+    @media screen and (max-width: 1024px) {
+      margin-left: 10px;
+      margin-right: 10px;
+      &::before {
+        right: 0px;
+      }
+
   }
 }
 

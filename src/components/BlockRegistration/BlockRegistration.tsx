@@ -11,7 +11,7 @@ import Login from '../Login/Login';
 
 const Modal = lazy(() => import('../Modal/Modal'));
 
-function Header2() {
+function BlockRegistration() {
   const [isAuth, setIsAuth] = useState(Boolean(localStorage.getItem('user')));
   const [isModalOpen, setModalOpen] = useState(false);
   const [isAnotherModalOpen, setAnotherModalOpen] = useState(false);
@@ -43,9 +43,9 @@ function Header2() {
   };
 
   return (
-    <header className={style.header}>
+    <div className={style.background}>
       <div className={cn([base.wrapper, style.wrapper])}>      
-
+      <div className={style.buttons}>
         <div>
           <Button text={'Registration'} onClick={openModal} />
           <Suspense fallback={<Loading />}>
@@ -73,9 +73,10 @@ function Header2() {
           <Login />
         </Modal>
       </div>
-    </header>
+      </div>
+    </div>
   );
 }
 
-export default Header2;
+export default BlockRegistration;
 

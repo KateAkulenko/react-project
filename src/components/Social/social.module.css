@@ -1,7 +1,8 @@
-
 .social {
-    display: flex;
-    gap: 20px;
+  margin-right: 10px;
+  display: flex;
+  gap: 20px;
+  
 }
 
 .link {

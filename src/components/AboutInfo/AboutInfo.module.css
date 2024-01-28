@@ -5,10 +5,12 @@
   flex-direction: column;
   margin-bottom: 90px;
   position: relative;
+  margin-right: 0px;
+  margin-left: 0px;
   display: flex;
   padding: 10px;
   &::before {
-    content: "";
+    content: '';
     background: var(--c-violet-light);
     display: inline-block;
     position: absolute;
@@ -17,7 +19,16 @@
     height: 100%;
     width: 80%;
     z-index: -1;
-}
+  }
+
+    @media screen and (max-width: 1024px) {
+      margin-left: 10px;
+      margin-right: 10px;
+      &::before {
+        right: 0px;
+      }
+    
+  }
 }
 
 .title {
@@ -37,5 +48,5 @@
 
 .stetoscope {
   color: var(--c-violet);
-  margin-right: 10px;;
+  margin-right: 10px;
 }

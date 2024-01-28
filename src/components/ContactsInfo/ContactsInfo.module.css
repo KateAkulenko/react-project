@@ -1,5 +1,6 @@
 .wrapper {
-  box-shadow: 1px 1px 2px var(--c-violet-dark), 0 0 25px var(--c-violet), 0 0 5px var(--c-violet-light);
+  box-shadow: 1px 1px 2px var(--c-violet-dark), 0 0 25px var(--c-violet),
+    0 0 5px var(--c-violet-light);
   border: 1px solid var(--c-violet-light);
   background: var(--c-white);
   transform: translate(-50%);
@@ -10,10 +11,22 @@
   position: absolute;
   display: flex;
   padding: 30px;
-  width: 60%;
+  width: 50%;
   left: 50%;
   z-index: 1;
-  top:360px;
+  top: 360px;
+  margin-bottom: 10px;
+
+  @media screen and (max-width: 768px) {
+    top: 300px;
+  }
+  @media screen and (max-width: 426px) {
+    position: relative;
+    display: flex;
+    padding: 30px;
+    width: 90%;
+    top: 10px;
+  }
 }
 
 .container {
@@ -28,7 +41,7 @@
   text-decoration: none;
   font-size: 20px;
   &:hover {
-    color: var(--c-violet);    
+    color: var(--c-violet);
   }
 }
 

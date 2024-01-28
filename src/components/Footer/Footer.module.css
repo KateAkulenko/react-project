@@ -9,22 +9,47 @@
     padding-top: 25px;
     display: flex;
     width: 100%;
+    @media screen and (max-width: 426px)  {
+      flex-direction: column;
+      gap: 20px;
+    }
 }
 
 .info {
   justify-content: space-between;
   flex-direction: column;
+  margin-left: 10px;
   display: flex;
   gap: 30px;
+  @media screen and (max-width: 426px)  {
+    gap: 10px;
+    align-items: center;
+  }
 }
 
 .p {
   font-family: var(--f-open-sans);
   color: var(--c-white);
+  font-size: 18px;
+  @media screen and (max-width: 768px)  {
+    font-size: 14px;
+  }
 }
 
 .social {
+  justify-content: center;
   align-items: center;
   display: flex;
 }
 
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

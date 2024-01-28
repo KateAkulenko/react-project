@@ -26,12 +26,19 @@
     z-index: -1;
     top: -10px;
   }
+  @media screen and (max-width: 768px)  {
+    height: 480px;
+  }
 }
 
 .inputs {
   flex-direction: row;
   display: flex;
   gap: 50px;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 .label {
@@ -47,7 +54,7 @@
 .input {
   transition: border-color 0.8s ease;
   border: 1px solid #ccc;
-  width: 300px;
+  
   border-radius: 5px;
   font-size: 16px;
   padding: 10px;
@@ -55,17 +62,25 @@
   &:focus {
     border-color: var(--c-violet); /* Колір обрамлення при фокусі */
   }
+  @media screen and (max-width: 376px)  {
+    width: 250px;
+  }
 }
 
 .buttons {
   flex-direction: row;
   display: flex;
   gap: 50px;
+  @media screen and (max-width: 768px)  {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 }
 
 .result {
   text-transform: uppercase;
-  color:var(--c-violet);
+  color: var(--c-violet);
   font-weight: 600;
   font-size: 26px;
   margin: 20px;
