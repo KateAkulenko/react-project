@@ -1,5 +1,7 @@
+//styles
 import style from './Footer.module.css';
 import base from './../../base.module.css';
+//components
 import Logo from './../Logo/Logo';
 import Social from '../Social/Social';
 import ContactsFooter from './../ContactsFooter/ContactsFooter';

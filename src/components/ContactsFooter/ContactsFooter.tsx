@@ -1,4 +1,6 @@
+//style
 import style from './ContactsFooter.module.css';
+//libraries and icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';

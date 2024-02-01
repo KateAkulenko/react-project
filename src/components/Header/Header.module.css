@@ -1,7 +1,9 @@
-
-
 .header {
-  background: radial-gradient(circle, rgba(192,127,253,1) 0%, rgba(138,43,226,1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(192, 127, 253, 1) 0%,
+    rgba(138, 43, 226, 1) 100%
+  );
 }
 
 .wrapper {
@@ -11,7 +13,7 @@
   padding-top: 20px;
   display: flex;
 
-  @media screen and (max-width: 767px)  {
+  @media screen and (max-width: 767px) {
     align-items: flex-start;
     padding-top: 20px;
   }

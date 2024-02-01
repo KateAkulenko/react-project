@@ -21,13 +21,12 @@
     z-index: -1;
   }
 
-    @media screen and (max-width: 1024px) {
-      margin-left: 10px;
-      margin-right: 10px;
-      &::before {
-        right: 0px;
-      }
-    
+  @media screen and (max-width: 1024px) {
+    margin-left: 10px;
+    margin-right: 10px;
+    &::before {
+      right: 0px;
+    }
   }
 }
 

@@ -1,4 +1,6 @@
+//styles
 import style from './AboutDoctors.module.css';
+
 function AboutDoctors() {
   return (
     <>
@@ -102,7 +104,6 @@ function AboutDoctors() {
           </p>
         </div>
       </div>
-      
     </>
   );
 }

@@ -1,4 +1,6 @@
+//styles
 import style from './AboutInfo.module.css';
+//components
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStethoscope } from '@fortawesome/free-solid-svg-icons';
 

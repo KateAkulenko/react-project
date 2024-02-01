@@ -1,4 +1,6 @@
+//style
 import style from './BodyMassInfo.module.css';
+//base
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStethoscope } from '@fortawesome/free-solid-svg-icons';
 
