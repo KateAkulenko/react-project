@@ -15,7 +15,7 @@ interface ModalProps {
 const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
   return (
     <>
-    // Conditionally render the modal only if isOpen is true
+    {/*Conditionally render the modal only if isOpen is true*/}
       {isOpen && (
         <div className={style.overlay}>
           <div className={style.content}>
