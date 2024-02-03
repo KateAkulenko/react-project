@@ -1,6 +1,5 @@
-
 .overlay {
-  background: rgba(0, 0, 0, 0.6); 
+  background: rgba(0, 0, 0, 0.6);
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -12,20 +11,18 @@
   top: 0;
 }
 
-
 .content {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
-  background: var(--c-white); 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background: var(--c-white);
   border-radius: 10px;
   padding: 20px;
   z-index: 20;
 }
 
-
 .close {
   border: solid 3px var(--c-delete);
   background: var(--c-white);
-  color: var(--c-delete); 
+  color: var(--c-delete);
   position: absolute;
   cursor: pointer;
   font-size: 30px;

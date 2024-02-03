@@ -1,18 +1,18 @@
 .wrapper {
+  flex-direction: column;
   display: flex;
   gap: 20px;
-  flex-direction: column;
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  flex-direction: row;
+  display: flex;
 }
 
 .errorcontainer {
-  display: flex;
   flex-direction: column;
+  display: flex;
   height: 30px;
 }
 
@@ -27,19 +27,19 @@
 
 .error {
   font-family: var(--f-montserrat);
-  font-size: 10px;
   color: var(--c-delete);
   margin-left: 10px;
+  font-size: 10px;
 }
 
 .button {
   font-family: var(--f-montserrat);
-  font-size: 14px;
   background-color: var(--c-violet);
+  color: var(--c-white);
+  border-radius: 10px;
+  font-size: 14px;
   max-width: 80px;
   padding: 5px;
-  border-radius: 10px;
-  color: var(--c-white);
   &:hover {
     background-color: var(--c-violet-light);
   }

@@ -1,4 +1,6 @@
+//base
 import PropTypes from 'prop-types'; // Якщо ви використовуєте PropTypes
+//style
 import style from './Title.module.css';
 
 const Title = ({ title }: { title: string }) => {

@@ -1,4 +1,7 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+//style
 import style from './Posts.module.css';
+//base
 import React, { useEffect } from 'react';
 
 const Posts: React.FC = () => {

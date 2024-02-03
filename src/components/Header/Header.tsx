@@ -20,7 +20,6 @@ function Header() {
     // Checking if the window width is less than 767 pixels
     const newIsMobile = window.innerWidth < 767;
     setIsMobile(newIsMobile);
-
     // Closing the burger menu if the screen width is more than the mobile screen width
     if (!newIsMobile && open) {
       setOpen(false);

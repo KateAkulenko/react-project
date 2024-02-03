@@ -1,5 +1,7 @@
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+//styles
 import style from './Login.module.css';
+//base
+import { Formik, Form, Field, ErrorMessage } from 'formik';
 
 const initialValues = {
   email: '',

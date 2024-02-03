@@ -1,4 +1,6 @@
+//style
 import style from './Registration.module.css';
+//base
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 
 const initialValues = {

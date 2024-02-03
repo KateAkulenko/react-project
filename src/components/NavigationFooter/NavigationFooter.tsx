@@ -1,3 +1,4 @@
+//style
 import style from './NavigationFooter.module.css';
 
 function NavigationFooter() {
